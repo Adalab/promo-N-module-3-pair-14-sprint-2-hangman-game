@@ -9,6 +9,8 @@ const Footer = (props) => {
             <NavLink
               className="footer__menu-link"
               to="/"
+              title="jugar"
+              exact
               activeClassName="active"
             >
               A jugar
@@ -18,6 +20,7 @@ const Footer = (props) => {
             <NavLink
               className="footer__menu-link"
               to="/instructions"
+              title="instrucciones"
               activeClassName="active"
             >
               ¿Cómo se juega?
@@ -27,6 +30,7 @@ const Footer = (props) => {
             <NavLink
               className="footer__menu-link"
               to="/options"
+              title="opciones"
               activeClassName="active"
             >
               Más opciones
